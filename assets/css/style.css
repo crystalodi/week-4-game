@@ -1,6 +1,11 @@
 * {
    box-sizing:border-box;
 }
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5;
+}
 .container {
     margin:0 auto;
     width:50%;
@@ -14,10 +19,10 @@
 	width:100%;
 	margin-bottom:5px;
 	border:1px solid black;
-	height:200px;
+	height:100%;
 	float:left;
 }	
-.crystalImg {
+.crystal-image {
 	float:left;
 	margin:5px;
 	background-color: pink;
