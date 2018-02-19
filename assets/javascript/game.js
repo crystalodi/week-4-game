@@ -25,4 +25,4 @@ $(document).ready(function(){
         //Calculates a random number to be score for each crystal and generates random score to tie or be lower than;
         return Math.floor(Math.random() * (max - 1) + min); 
     }
-})
+});
