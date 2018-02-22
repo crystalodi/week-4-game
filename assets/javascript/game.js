@@ -14,15 +14,15 @@ $(document).ready(function(){
         if(currentScore === scoreToWin) {
             //You Win
             winCount++;
-            $("#numWins").html(winCount)
-            startGame()
+            $("#numWins").html(winCount);
+            startGame();
         }
         else {
 			if(currentScore > scoreToWin) {
 				//You lose
-				lossCount++
-				$("#numLoss").html(lossCount)
-				startGame()
+				lossCount++;
+				$("#numLoss").html(lossCount);
+				startGame();
 			}
         }
     });

@@ -9,7 +9,9 @@
         <script src="./assets/javascript/game.js"></script>
     </head>
     <body>
-		<header><h1>Crystal Collector</h1></header>
+		<header>
+			<h1 class="header-text">Crystal Collector</h1>
+		</header>
         <div class="container">
 			<div class="game-instruction">
 				<p>You will be given a random number at the start of the game.</p>
@@ -28,13 +30,15 @@
                 <img src="./assets/images/red.png" class="crystal-image" id="red"/>
                 <img src="./assets/images/orange.png" class="crystal-image" id="orange"/>
             </div>
-            <div class="score-area">
-                <h2>Score To Match</h2><span id="scoreToMatch"></span>
-                <h2>Your Score</h2><span id="yourScore"></span>
-            </div>
-            <div class="win-loss-area">
-                <h2>Wins</h2><span id="numWins">0</span>
-                <h2>Losses</h2><span id="numLoss">0</span>
+            <div class="game-status-area">
+				<div class="score-area">
+					<h2>Score To Match</h2><span id="scoreToMatch"></span>
+					<h2>Your Score</h2><span id="yourScore"></span>
+				</div>
+				<div class="win-loss-area">
+					<h2>Wins</h2><span id="numWins">0</span>
+					<h2>Losses</h2><span id="numLoss">0</span>
+				</div>
             </div>
         </div>
     </body>
