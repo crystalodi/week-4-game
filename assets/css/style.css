@@ -16,10 +16,11 @@ header {
 	padding-bottom:25px;
 }
 h1 {
-	font-size:24px;
+	font-size:28px;
+	font-family: 'Pacifico', cursive;
 }
 h2 {
-	font-size:20px;
+	font-size:24px;
 }
 .container {
     margin:0 auto;
