@@ -23,19 +23,19 @@ h2 {
 }
 p {
 	line-height: 2.0;
+	font-family: 'Oswald', sans-serif;
 }
 .row {
 	float:left;
 	width:100%;
 	padding-left:2%;
 	padding-right:2%;
+	margin-bottom:3%;
 }
 .game-instruction {
 	width:100%;
 	float:left;
-	padding:1%;
-	background-color:limegreen;
-	margin-bottom:3%;
+	padding:1%;	
 }	
 .crystal-image {
 	float:left;
@@ -46,30 +46,26 @@ p {
 .crystal-area {
 	float:left;
 	width:100%;
-	margin-bottom: 3%;
+}
+.crystal-container {
+	float:left;
+	width:25%;
+	padding: 1%;
 }
 .header-text {
-	padding:20px;
+	padding:2%;
+	margin-bottom:3%
 }
 .crystals-collected, 
 .crystals-to-collect,
-.wins-and-losses {
-	width:33.33%;
+.loss-count-section,
+.wins-count-section
+ {
+	width:25%;
 	float:left;
 	padding:1%;
 	height:150px;
 	text-align:center;
-	margin-bottom:3%;
-}
-.crystals-collected {
-	background-color:red;
-	
-}
-.crystals-to-collect {
-	background-color:yellow;
-}
-.wins-and-losses {
-	background-color:pink;
 }
 .game-stats-header {
 	font-family: 'Oswald', sans-serif;

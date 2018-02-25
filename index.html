@@ -27,10 +27,18 @@
         </div>
         <div class="row">
             <div class="crystal-area">
-                <img src="./assets/images/blue.png" class="crystal-image" id="blue"/>
-                <img src="./assets/images/green.png" class="crystal-image" id="green"/>
-                <img src="./assets/images/red.png" class="crystal-image" id="red"/>
-                <img src="./assets/images/orange.png" class="crystal-image" id="orange"/>
+                <div class="crystal-container">
+                    <img src="./assets/images/blue.png" class="crystal-image" id="blue"/>
+                </div>
+                <div class="crystal-container">
+                    <img src="./assets/images/green.png" class="crystal-image" id="green"/>
+                </div>
+                <div class="crystal-container">
+                    <img src="./assets/images/red.png" class="crystal-image" id="red"/>
+                </div>
+                <div class="crystal-container">
+                    <img src="./assets/images/orange.png" class="crystal-image" id="orange"/>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -50,32 +58,31 @@
                     <h2 id="scoreToMatch" class="game-stats-header"></h2>
                 </div>
             </div>
-            <div class="wins-and-losses">
-                <h2 class="game-stats-header">Wins and Losses</h2>
+            <div class="wins-count-section">
+                <h2 class="game-stats-header">
+                    Wins
+                </h2>
                 <div class="game-stats-body">
                     <div class="wins-count">
                         <h2 class="game-stats-header">
-                            Wins: <span id="numWins">0</span>
+                            <span id="numWins">0</span>
                         </h2>
                     </div>
+                </div>
+            </div>
+            <div class="loss-count-section">
+                <h2 class="game-stats-header">
+                    Losses
+                </h2>
+                <div class="game-stats-body">
                     <div class="loss-count">
                         <h2 class="game-stats-header">
-                            Losses: <span id="numLoss">0</span>
+                            <span id="numLoss">0</span>
                         </h2>
                     </div>
                 </div>
             </div>
         </div>
-       <!-- <div class="game-status-area">
-            <div class="score-area">
-                <h2>Score To Match</h2><span id="scoreToMatch"></span>
-                <h2>Your Score</h2><span id="yourScore"></span>
-            </div>
-            <div class="win-loss-area">
-                <h2>Wins</h2><span id="numWins">0</span>
-                <h2>Losses</h2><span id="numLoss">0</span>
-            </div>
-        </div>-->
         <script src="./assets/javascript/game.js"></script>
     </body>
 </html>
