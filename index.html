@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Crystal Game</title>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/reset.css"/>
         <link rel="stylesheet" href="./assets/css/style.css"/>
         <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -12,7 +12,7 @@
 		<header>
 			<h1 class="header-text">Crystal Collector</h1>
 		</header>
-        <div class="container">
+        <div class="row">
 			<div class="game-instruction">
 				<p>You will be given a random number at the start of the game.</p>
 				
@@ -24,23 +24,58 @@
 				
 				<p>Each time when the same starts, the game will change the values of each crystal.</p>
             </div>
+        </div>
+        <div class="row">
             <div class="crystal-area">
                 <img src="./assets/images/blue.png" class="crystal-image" id="blue"/>
                 <img src="./assets/images/green.png" class="crystal-image" id="green"/>
                 <img src="./assets/images/red.png" class="crystal-image" id="red"/>
                 <img src="./assets/images/orange.png" class="crystal-image" id="orange"/>
             </div>
-            <div class="game-status-area">
-				<div class="score-area">
-					<h2>Score To Match</h2><span id="scoreToMatch"></span>
-					<h2>Your Score</h2><span id="yourScore"></span>
-				</div>
-				<div class="win-loss-area">
-					<h2>Wins</h2><span id="numWins">0</span>
-					<h2>Losses</h2><span id="numLoss">0</span>
-				</div>
+        </div>
+        <div class="row">
+            <div class="crystals-collected">
+                <h2 class="game-stats-header">
+                    Crystals Collected
+                </h2>
+                <div class="game-stats-body">
+                    <h2 class="game-stats-header" id="yourScore"></h2>
+                </div>
+            </div>
+            <div class="crystals-to-collect">
+                <h2 class="game-stats-header">
+                    Crystals To Collect
+                </h2>
+                <div class="game-stats-body">
+                    <h2 id="scoreToMatch" class="game-stats-header"></h2>
+                </div>
+            </div>
+            <div class="wins-and-losses">
+                <h2 class="game-stats-header">Wins and Losses</h2>
+                <div class="game-stats-body">
+                    <div class="wins-count">
+                        <h2 class="game-stats-header">
+                            Wins: <span id="numWins">0</span>
+                        </h2>
+                    </div>
+                    <div class="loss-count">
+                        <h2 class="game-stats-header">
+                            Losses: <span id="numLoss">0</span>
+                        </h2>
+                    </div>
+                </div>
             </div>
         </div>
+       <!-- <div class="game-status-area">
+            <div class="score-area">
+                <h2>Score To Match</h2><span id="scoreToMatch"></span>
+                <h2>Your Score</h2><span id="yourScore"></span>
+            </div>
+            <div class="win-loss-area">
+                <h2>Wins</h2><span id="numWins">0</span>
+                <h2>Losses</h2><span id="numLoss">0</span>
+            </div>
+        </div>-->
         <script src="./assets/javascript/game.js"></script>
     </body>
 </html>
