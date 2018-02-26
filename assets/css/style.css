@@ -36,12 +36,6 @@ p {
 	width:100%;
 	float:left;
 	padding:1%;	
-}	
-.crystal-image {
-	float:left;
-}
-.crystal-image:hover {
-	cursor: pointer;
 }
 .crystal-area {
 	float:left;
@@ -50,7 +44,36 @@ p {
 .crystal-container {
 	float:left;
 	width:25%;
-	padding: 1%;
+	max-width:25%;
+	height:175px;
+	max-height:175px;
+}
+#red {
+	background-image: url('../images/red.png');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+}
+#green {
+	background-image: url('../images/green.png');
+    background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+}
+#orange {
+	background-image: url('../images/orange.png');
+    background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+}
+#blue {
+	background-image: url('../images/blue.png');
+    background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+}
+.crystal-container:hover {
+	cursor: pointer;
 }
 .header-text {
 	padding:2%;
@@ -64,10 +87,12 @@ p {
 	width:25%;
 	float:left;
 	padding:1%;
-	height:150px;
 	text-align:center;
 }
 .game-stats-header {
+	font-family: 'Pacifico', sans-serif;
+}
+.game-stats {
 	font-family: 'Oswald', sans-serif;
 }
 .game-stats-body {

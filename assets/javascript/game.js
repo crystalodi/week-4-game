@@ -6,7 +6,7 @@ $(document).ready(function(){
     //Define variable that keeps track of score.
     var currentScore, scoreToWin;
     startGame()
-    $(".crystal-image").on("click", function(){
+    $(".crystal-container").on("click", function(){
 		//Each time a crystal is clicked add crystal score to user's current score and update field
         var crystalScore = parseInt($(this).attr("value"));
         currentScore += crystalScore;

@@ -14,6 +14,7 @@
 		</header>
         <div class="row">
 			<div class="game-instruction">
+                <h2 class="game-stats-header">Instructions</h2>
 				<p>You will be given a random number at the start of the game.</p>
 				
 				<p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
@@ -27,18 +28,10 @@
         </div>
         <div class="row">
             <div class="crystal-area">
-                <div class="crystal-container">
-                    <img src="./assets/images/blue.png" class="crystal-image" id="blue"/>
-                </div>
-                <div class="crystal-container">
-                    <img src="./assets/images/green.png" class="crystal-image" id="green"/>
-                </div>
-                <div class="crystal-container">
-                    <img src="./assets/images/red.png" class="crystal-image" id="red"/>
-                </div>
-                <div class="crystal-container">
-                    <img src="./assets/images/orange.png" class="crystal-image" id="orange"/>
-                </div>
+                <div class="crystal-container" id="blue"></div>
+                <div class="crystal-container" id="green"></div>
+                <div class="crystal-container" id="red"></div>
+                <div class="crystal-container" id="orange"></div>
             </div>
         </div>
         <div class="row">
@@ -47,7 +40,7 @@
                     Crystals Collected
                 </h2>
                 <div class="game-stats-body">
-                    <h2 class="game-stats-header" id="yourScore"></h2>
+                    <h2 class="game-stats" id="yourScore"></h2>
                 </div>
             </div>
             <div class="crystals-to-collect">
@@ -55,7 +48,7 @@
                     Crystals To Collect
                 </h2>
                 <div class="game-stats-body">
-                    <h2 id="scoreToMatch" class="game-stats-header"></h2>
+                    <h2 id="scoreToMatch" class="game-stats"></h2>
                 </div>
             </div>
             <div class="wins-count-section">
@@ -64,7 +57,7 @@
                 </h2>
                 <div class="game-stats-body">
                     <div class="wins-count">
-                        <h2 class="game-stats-header">
+                        <h2 class="game-stats">
                             <span id="numWins">0</span>
                         </h2>
                     </div>
@@ -76,7 +69,7 @@
                 </h2>
                 <div class="game-stats-body">
                     <div class="loss-count">
-                        <h2 class="game-stats-header">
+                        <h2 class="game-stats">
                             <span id="numLoss">0</span>
                         </h2>
                     </div>
