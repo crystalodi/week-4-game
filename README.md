@@ -44,6 +44,36 @@ Open the `index.html` file by double clicking on it. The app will open in a web 
 <img src="https://raw.githubusercontent.com/crystalodi/week-4-game/master/assets/images/home.png">
 
 ### Folder Structure
+After following the instructions in the installation section, the contents of the `/week-4-game` will look like this
+
+```
+C:.
+│   index.html
+│   README.md
+│
+└───assets
+    ├───css
+    │       reset.css
+    │       style.css
+    │
+    ├───images
+    │       blue.png
+    │       crystals.png
+    │       game_stats.png
+    │       green.png
+    │       home.png
+    │       losses.png
+    │       orange.png
+    │       red.png
+    │       wins.png
+    │
+    └───javascript
+            game.js
+```
+* `index.html` contains the ui for the application.
+* `assets/css/reset.css` removes any default styling applied by web browsers
+* `assets/css/style.css` Contains styling for game.
+* `assets/javascript/game.js` Contains logic to generate random numbers for Crystals To Collect, Current Score, and points that represent what each crystal is worth. Also increments counters used to track the number of wins and losses.
 
 ## How to Play
 When `index.html` is loaded, `assets/javascript/game.js` will generate a random number between 19 and 120 inclusive, which will represent the number of Crystals To Collect
