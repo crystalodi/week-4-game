@@ -20,8 +20,6 @@ GIT - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
 Open your terminal and clone [this](http://github.com/week-4-game/week-4-game.git) repository to your computer. 
 
 ```
@@ -43,17 +41,26 @@ explorer .
 
 Open the `index.html` file by double clicking on it. The app will open in a web browser and should look like this:
 
+<img src="https://raw.githubusercontent.com/crystalodi/week-4-game/master/assets/images/home.png">
 
 ### Folder Structure
 
 ## How to Play
-When `index.html` is loaded, `assets/javascript/game.js` will generate a random number between 19 and 120 inclusive, which will represent the number of crystals to collect.
+When `index.html` is loaded, `assets/javascript/game.js` will generate a random number between 19 and 120 inclusive, which will represent the number of Crystals To Collect
 
-`assets/javascript/game.js` will also generate 4 random numbers between 1 and 12, for each crystal. Each time one of these crystals are clicked, the random number generated for that crystal will be added to the Crystals Collected score. The user will know what each crystal is worth by clicking on it.
+<img src="https://raw.githubusercontent.com/crystalodi/week-4-game/master/assets/images/game_stats.png">
 
-You win the game if you match your Crystals Collected score with the Crystals to Collect number.
+`assets/javascript/game.js` will also generate 4 random numbers between 1 and 12, for each crystal. Each time one of these crystals is clicked, the random number generated for that crystal will be added to the Crystals Collected score. The user will only know what each crystal is worth by clicking on it.
 
-You lose the game if your Crystals Collected score is greater than the Crystals to Collect number.
+<img src="https://raw.githubusercontent.com/crystalodi/week-4-game/master/assets/images/crystals.png">
+
+You win the game if you match your Crystals Collected score with the Crystals to Collect number. The Wins number will be incremented by 1.
+
+<img src="https://raw.githubusercontent.com/crystalodi/week-4-game/master/assets/images/wins.png">
+
+You lose the game if your Crystals Collected score is greater than the Crystals to Collect number. The losses number will be incremented by 1.
+
+<img src="https://raw.githubusercontent.com/crystalodi/week-4-game/master/assets/images/losses.png">
 
 
 ## Built With
