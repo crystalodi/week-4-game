@@ -1,6 +1,6 @@
 # Crystal Collector
 
-One Paragraph of project description goes here
+Crystal Collector is a game where the object is earn points by clicking on different crystals and match the goal score without going over.
 
 ## Live Version
 
